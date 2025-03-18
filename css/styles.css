@@ -1,0 +1,199 @@
+body {
+    font-family: "Frank Ruhl Libre", serif;
+    background-color: #cec8cc;
+}
+
+h1 {
+    text-align: center;
+}
+
+p, td {
+    font-size: 13px;
+    margin: 3px 0;
+    margin-top: 0;
+}
+
+code {
+    color: #90544A;
+}
+h2 {
+    font-size: 19px;
+    text-align: center;
+    color: white;
+    background: #FF9C8A;
+    margin-bottom: 3px;
+    border-radius: 6px 6px 0 0;
+    margin-top: 0;
+}
+
+hr {
+    margin: 2px 0;
+}
+
+.metadata {
+    background: #ffffff;
+    margin-top: 0px;
+    margin: 0 20px 20px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 6px 6px 0 0;
+    width: 600px;
+}
+
+.section-elements {
+    background: #ffffff;
+    margin-top: 0px;
+    margin: 0 20px 20px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 6px 6px 0 0;
+    width: 600px;
+}
+
+.content-grouping {
+    background: #ffffff;
+    margin-top: 0px;
+    margin: 0 20px 20px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 6px 6px 0 0;
+    width: 600px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+
+}
+
+.left-block, .right-block {
+    width: 50%; /* Каждый блок занимает половину ширины экрана */
+    padding: 20px;
+    box-sizing: border-box; /* Учитываем padding при расчете ширины блоков */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Убираем лишние границы между ячейками */
+    border-spacing: 0; /* Убираем пробелы между ячейками */
+}
+
+td {
+    text-align: left;
+    background-color: #ffffff;
+    color: #000000;
+    white-space: normal;
+    word-break: break-word;/* Ограничиваем максимальную ширину колонки */
+    vertical-align: top;
+}
+
+td:nth-child(2) {
+    width: 45%; /* Задаём меньшую ширину второй колонке */
+    max-width: 150px; /* Ограничиваем максимальную ширину второй колонки */
+    padding-left: 20px;
+}
+
+td:nth-child(1) {
+    width: 29%; /* Задаём ширину первой и третьей колонке */
+    color: #90544A;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+td:nth-child(3) {
+    padding-left: 70px;
+    color: #90544A;
+}
+
+/* Границы только между строками */
+tr {
+    border-bottom: 1px solid #9a9a9a;
+}
+
+tr:last-child {
+    border-bottom: none; /* Убираем нижнюю границу у последней строки */
+}
+
+
+.text-semantics {
+    background: #ffffff;
+    margin-top: 0px;
+    margin: 20px 10px 20px 0;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 6px 6px 0 0;
+}
+
+.embedded-content {
+    background: #ffffff;
+    margin-top: 0px;
+    margin: 0 10px 20px 0;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 6px 6px 0 0;
+    width: 600px;
+}
+
+.tabular-data {
+    background: #ffffff;
+    margin-top: 0px;
+    margin: 0 20px 20px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 6px 6px 0 0;
+    width: 600px;
+}
+
+.interactive-elements {
+    background: #ffffff;
+    margin-top: 0px;
+    margin: 0 20px 20px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 6px 6px 0 0;
+    width: 600px;
+}
+
+.scripts {
+    background: #ffffff;
+    margin-top: 0px;
+    margin: 0 20px 20px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 6px 6px 0 0;
+    width: 600px;
+}
+
+.edits {
+    background: #ffffff;
+    margin-top: 0px;
+    margin: 0 0 20px 0;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 6px 6px 0 0;
+    width: 600px;
+}
+
+.forms {
+    background: #ffffff;
+    margin-top: 0px;
+    margin: 0 0 20px 0;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 6px 6px 0 0;
+    width: 600px;
+}
+
+footer {
+    background-color: #FF9C8A;
+    color: white;
+    margin-top: 0px;
+    margin: 0 20px 20px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 6px 6px 6px 6px;
+    width: 600px;
+    text-align: center;
+}
